@@ -14,7 +14,8 @@
 <body class="bg-Blue1">
     <!-- Nvabar -->
     <!-- Navbar -->
-    <nav class="relative container  mx-auto px-8 pt-6">
+    <section id="hero" class="bg-image bg-specs">
+    <nav class="relative container   mx-auto px-8 pt-6">
         <!-- Flex container -->
         <div class="flex items-center justify-between">
             <!-- Logo -->
@@ -22,16 +23,16 @@
                 <img class="h-[100px] w-[100px]" src="img/Group 3.svg" alt="" />
             </div>
             <!-- Menu Items -->
-        
+
             <div class="hidden text-center px-7 py-4 space-x-6 md:flex text-White2">
                 <a href="#" class="pt-2 hover:text-Orange1 hover:font-bold  text-1xl">Home</a>
                 <a href="#" class="pt-2 hover:text-Orange1 hover:font-bold  text-1xl">About Me</a>
                 <a href="#" class="pt-2 hover:text-Orange1 hover:font-bold  text-1xl">Projects</a>
                 <a href="#" class="pt-2 hover:text-Orange1 hover:font-bold  text-1xl">Work</a>
-        
-            <!-- Button -->
-            <a href=""
-                class=" p-3 px-6 pt-2 border border-Orange1  bg-transparent rounded-md baseline hover:bg-Orange1 hover:font-bold hover:text-White1 hidden md:block ">Resume</a>
+
+                <!-- Button -->
+                <a href=""
+                    class=" p-3 px-6 pt-2 border border-Orange1  bg-transparent rounded-md baseline hover:bg-Orange1 hover:font-bold hover:text-White1 hidden md:block ">Resume</a>
             </div>
             <!-- Hamburger Icon -->
 
@@ -56,14 +57,15 @@
 
     </nav>
     <!-- Hero Section -->
-    <section id="hero">
+    
         <!-- Flex Container -->
-        <div class="container flex flex-col mx-auto pt-8 w-screen h-screen md:px-56 mt-10 space-y-0 md:space-y-0 md:flex-row">
+        <div class="container flex flex-col md:flex-row mx-auto md:px-56 items-stretch">
             <!-- Left iten -->
-            <div class="flex flex-col xs:pt-6 mb-28 space-y-10">
+            <div class="flex flex-col xs:pt-6 md:h-screen md:align-middle">
 
-                <div class="tracking-wide">
-                    <p class="animate__animated animate__bounce max-w-lg text-Orange1 md:text-1xl md:text-left">Hi, my name is
+                <div class="tracking-wide md:pt-16">
+                    <p class="animate__animated animate__bounce max-w-lg text-Orange1 md:text-1xl md:text-left">Hi, my
+                        name is
                     </p>
                     <h1 class="max-w-md text-4xl md:whitespace-nowrap font-bold md:text-7xl text-White1 md:text-left">
                         Cristian Castro. </h1>
@@ -72,25 +74,34 @@
                     <p class="max-w-lg text-White2 md:text-[18px] md:text-left">
                         I'm an IT specialist who loves all things tech. From Layer 1 to layer 7.</p>
                 </div>
-                <div class="flex md:justify-start">
+                <div class="flex md:justify-end md:pt-4">
                     <a href="#"
                         class="p-3 px-6 pt-2 border border-Orange1 text-White2 bg-transparent rounded-md baseline hover:bg-Orange1 hover:font-bold hover:text-White1">Contact
                         Me</a>
                 </div>
             </div>
+          
         </div>
-      
+        <div class="svg1">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
     </section>
-
+    
     <!-- About Me -->
-    <section id="aboutme">
+    <section id="aboutme" class="bg-Orange1">
+    
         <!-- Flex Container -->
-        <div class="relative container mx-auto md:px-56 flex flex-col md:flex-row">
+        <div class="relative container md:h-screen mx-auto md:px-56 flex flex-col md:flex-row">
             <!-- About me Section -->
+            
+            <div class="flex flex-col xs:text-left xs:pb-8 md:w-3/5">
 
-            <div class="lex flex-col xs:text-left xs:pb-8 md:w-3/5">
-
-                <h1 class="max-w-lg text-White1 font-extrabold xs:text-3xl md:text-4xl xs:text-left md:text-left">About
+                <h1 class="max-w-lg text-White1 pb-5 font-extrabold xs:text-3xl md:text-4xl xs:text-left md:text-left">
+                    About
                     Me</h1>
                 <br>
                 <p class="swing max-w-lg text-center text-White2 md:text-1xl xs:text-left md:text-left"> HI! My
@@ -100,14 +111,12 @@
                     website for a friend.
                 </p>
                 <br>
-                <p
-                    class="max-w-sm text-center text-White2 md:whitespace-normal xs:text-left md:text-1xl md:text-left">
+                <p class="max-w-sm text-center text-White2 md:whitespace-normal xs:text-left md:text-1xl md:text-left">
                     Fast forward to today, and I've the privilega of implmenting software using cloud technologies
                     tools, and working with opensource apps to help my current employer with productivity for employees.
                 </p>
                 <br>
-                <p
-                    class="max-w-sm text-center text-White2 md:whitespace-normal xs:text-left md:text-1xl md:text-left">
+                <p class="max-w-sm text-center text-White2 md:whitespace-normal xs:text-left md:text-1xl md:text-left">
                     I also work on desinning networks for business who need to virtualization and cloud services for
                     their business needs. </p>
             </div>
@@ -116,12 +125,19 @@
             </div>
         </div>
 
-
+  
     </section>
-
+    <div class="custom-shape-divider-top-1660016144">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
     <!-- Features Section -->
     <section id="projects-list">
-        <div class="max-w-5xl px-2 mx-auto mt-10 text-center">
+     
+        <div class="max-w-5xl md:h-screen px-2 mx-auto mt-10 text-center">
             <h2 class="text-4xl font-bold text-center text-White1">
                 Some projects I have created
             </h2>
@@ -142,7 +158,8 @@
                             <h1 class="text-2xl font-extrabold tracking-tight text-White1 sm:text-3xl">Maluhia Hospice
                             </h1>
 
-                            <p class="text-md font-normal text-center text-White2 pt-2">Landing Page for Hospice in South Texas,
+                            <p class="text-md font-normal text-center text-White2 pt-2">Landing Page for Hospice in
+                                South Texas,
                                 United States </p>
                             <ul class="flex justify-around my-4 pt-1 place-items-center">
                                 <li class="p-2">
@@ -288,9 +305,67 @@
     </section>
 
 
+    <section id="hero" class="bg-svg3">
+        <div class="waves2">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div> 
+        <!-- Flex Container pt-8 mt-10 space-y-0 md:space-y-0 md:flex-row md:space-x-6 -->
+        <h2 class="text-4xl font-bold py-14 text-center text-White1">
+            Work Exprience
+        </h2>
+        <div class="container flex flex-col mx-auto md:px-56 md:flex-row md:space-x-6 ">
 
+
+            <!-- Left iten -->
+            <div class="flex md:flex-colxs:pt-6 mb-28 space-y-10">
+                <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+                    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Grupo Educativo Oxford</h5>
+                    <p class="text-gray-700 text-base mb-4">
+                        I coordinate all tech projects such as building infracture and handle daily networking issues.
+                    </p>
+                    <button type="button"
+                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                </div>
+            </div>
+            <div class="flex flex-col xs:pt-6 mb-28 space-y-10">
+                <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+                    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Card title</h5>
+                    <p class="text-gray-700 text-base mb-4">
+                        Some quick example text to build on the card title and make up the bulk of the card's
+                        content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque natus aspernatur illo
+                        unde tempora commodi iste quod neque sapiente quis debitis architecto in cupiditate dolores
+                        officiis sit ipsa repellat, assumenda, numquam facilis deserunt fugiat quasi praesentium
+                        perspiciatis. Laboriosam perspiciatis sequi neque, soluta sit molestias? Beatae sunt nostrum
+                        nihil doloremque animi?
+                    </p>
+                    <button type="button"
+                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                </div>
+            </div>
+            <div class="flex flex-col xs:pt-6 mb-28 space-y-10">
+                <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+                    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Card title</h5>
+                    <p class="text-gray-700 text-base mb-4">
+                        Some quick example text to build on the card title and make up the bulk of the card's
+                        content.
+                    </p>
+                    <button type="button"
+                        class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
+
+
+  
     <!-- Footer -->
-    <footer class="pb-3">
+    <footer class="pb-3 ">
         <div class="container flex place-content-center px-7 pt-5 mx-auto space-y-8 md:space-y-0">
             <!-- Logo and social links container -->
             <div class="flex flex-col items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">

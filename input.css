@@ -2,17 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-image: url('../img/bg-tablet-pattern.svg');
+.bg-specs{
+    background-image: url(../img/blob-scatter-haikei.svg);
+    width: 100%;
     background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: 90% -25%;
-  }
-  
-  #cta {
-    background-image: url('../img/bg-simplify-section-desktop.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+  .svg1 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.svg1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.svg1 .shape-fill {
+    fill: #F29F05;
+}
+
+  .custom-shape-divider-top-1660016144 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1660016144 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 137px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1660016144 .shape-fill {
+    fill: #F29F05;
+}
+.waves-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.waves2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.waves2 .shape-fill {
+    fill: #032859
+}
+
+.bg-svg3{
+    background-image: url(../img/circles.svg);
+    width: 100%;
     background-repeat: no-repeat;
-  }
+    background-position: center;
+    background-size: cover;
+}
+.waves-negative{
+    background-image: url(../img/wavesNegative.svg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ftbg {
+    background-color: #0E1025;
+
+}
+
   
   @media (max-width: 576px) {
     body {
