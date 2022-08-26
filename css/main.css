@@ -1041,6 +1041,11 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1049,11 +1054,6 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-xl {
@@ -1205,6 +1205,47 @@ video {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.popup {
+  background-color: #ffffff;
+  width: 450px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  display: none;
+}
+
+.popup button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #c5c5c5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup p {
+  font-size: 14px;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.popup a{
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background: #0f72e5;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 0;
 }
 
 .svg1 {
