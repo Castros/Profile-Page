@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .bg-specs{
     background-image: url(../img/blob-scatter-haikei.svg);
     width: 100%;
@@ -64,8 +65,9 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    /* height: 150px; */
     transform: rotateY(180deg);
+    color: #F29F05;
 }
 
 .svg1 .shape-fill {
@@ -85,7 +87,7 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 137px;
+    /* height: 137px; */
     transform: rotateY(180deg);
 }
 
@@ -99,19 +101,23 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
+
+    
 }
 
 .waves2 svg {
+    /* background-color: aquamarine; */
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    /* height: 550px; */
     transform: rotateY(180deg);
 }
 
 .waves2 .shape-fill {
-    fill: #032859
-}
+   fill:  #032859;
+    
+} 
 
 .bg-svg3{
     background-image: url(../img/circles.svg);
